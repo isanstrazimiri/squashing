@@ -2,7 +2,6 @@
 
 set -xe
 
-apt install -y git
 git config --global user.email ${INPUT_USER_EMAIL}
 git config --global user.name ${INPUT_USER_NAME}
 git checkout master
